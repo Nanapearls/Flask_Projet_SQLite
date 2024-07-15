@@ -25,7 +25,7 @@ def lecture():
   # Si l'utilisateur est authentifié
     return "<h2>Bravo, vous êtes authentifié</h2>"
 
-@app.route('/authentification', methods=['GET', 'POST'])
+@app.route('/authentification', methods=['GET', 'POST'])#commentaire
 def authentification():
     if request.method == 'POST':
         # Vérifier les identifiants
